@@ -1,18 +1,9 @@
-//
-//  ViewController.swift
-//  EggTimer
-//
-//  Created by Angela Yu on 08/07/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
-//
 
 import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
     
-    // I just realized the UILabel and the UIProgressView are just the types
-    // There is ALOT wrong with this app but its whatever idc
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     
