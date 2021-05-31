@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         }
         else if secondsPassed == totalTime{
             timer.invalidate()
-            titleLabel.text = "DONE!!!"
+            titleLabel.text = "You're eggs are done!"
            
             let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
